@@ -1,15 +1,11 @@
-{{ $pages := ((where .Site.Pages "Type" "post") | shuffle) }}
-{{ range first 3 $pages}} 
+{{ $pages := (where .Data.Pages.ByDate.Reverse "Type" "post") }}
+{{ range first 3 $pages | after 1}}
 
-<article class="post-card post"> 
+<article class="post-card post{{ if not .Params.image }} no-image{{ end }}"> 
     {{if .Params.image}}
     <a class="post-card-image-link" href="{{ .Permalink }}">
       <div class="post-card-image" style="background-image: url({{.Params.image | absURL}})"></div>
     </a>
-    {{else}}
-    <a class="post-card-image-link" href="{{ .Permalink }}">
-      <div class="post-card-image" style="background-image: url({{$.Site.BaseURL}}defimg/{{ index (seq 7 | shuffle) 0 }}.jpg)"></div>
-    </a>    
     {{end}}
 
     <div class="post-card-content">

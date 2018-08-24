@@ -12,14 +12,14 @@ paginate = 6
   cover = "/assets/image/meta/header-1.jpg"
   description = "Tech and software engineering"
   metaDescription = ""
-  googleAnalytics = ""
+  googleAnalytics = "UA-113693681-1"
   customCSS = []
   #RSSLink = "/index.xml"
 
   twitterName = "mattlc_3"
   fbName = ""
   githubName = "crookm"
-  linkedinName = ""
+  linkedinName = "crookm"
 
   logo = "/assets/image/meta/blog-logo.png"
   #orgName = "EM"

@@ -1,5 +1,5 @@
 ---
-title: "Sharing WiFi Connection over Ethernet Ubuntu 18.04"
+title: "Sharing WiFi Connection over Ethernet on Ubuntu 18.04"
 slug: sharing-wifi-connection-over-ethernet
 published: 2018-05-10T23:46:00+12:00
 
@@ -8,13 +8,9 @@ image: /assets/image/2018-05-10-sharing-wifi-connection-over-ethernet-ubuntu-18-
 tags: [ "tooling", "linux", "networking",]
 ---
 
-I found my Raspberry Pi in a drawer, and decided to get back into developing small IoT applications for it. Most of what I wanted to do required access to the internet, and my USB WiFi adapter is super trash.
+I wanted to share my Ubuntu 18 desktop's WiFi connection over Ethernet to my Raspberry Pi - however, some of the software you need to do this is no longer readily available, as it is superseded by the new settings app in Ubuntu 18.
 
-The good news is that Pi's have an RJ45/Ethernet port, the (sorta) bad news is that my house is WiFi only.
-
-To address this, I went wanted to share my Ubuntu 18 desktop's WiFi connection over Ethernet - however, some of the software you need is no longer readily available, as it is superseded by the new settings app in Ubuntu 18.
-
-What you're after is available through the terminal, with:
+So now, you can only share your WiFi connection over Ethernet by directly opening the connection editor, which you can do through the terminal:
 
 ```sh
 nm-connection-editor

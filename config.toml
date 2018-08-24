@@ -1,3 +1,48 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "/"
+#theme = "casper-two"
+languageCode = "en-NZ"
+disqusShortname = ""
+paginate = 6
+#SectionPagesMenu = "main"
+
+uglyurls = true
+
+[params]
+  title = "Matt's Blog"
+  subtitle = "Tech and software engineering"
+
+  cover = "/assets/image/meta/header-1.jpg"
+  description = "Tech and software engineering"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  #RSSLink = "/index.xml"
+
+  twitterName = "mattlc_3"
+  fbName = ""
+  githubName = "crookm"
+  linkedinName = ""
+
+  logo = "/assets/image/meta/blog-logo.png"
+  #orgName = "EM"
+  #orgWebsite = "https://www.telematika.org"
+  #orgDescription = "Here is a description placeholder for your org"
+
+  author = "Matt Crook"
+  authorAvatar = "/assets/image/meta/profile-mc.jpg"
+  authorLocation = "Auckland, NZ"
+  authorWebsite = "https://crookm.com"
+  authorDescription = "Futurist, technologist, and student at Auckland Uni"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/journal/:year/:month/:slug"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200

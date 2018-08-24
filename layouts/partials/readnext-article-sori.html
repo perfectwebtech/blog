@@ -17,7 +17,13 @@
               {{ if .Description }} 
                 <p>{{ .Description | markdownify }}</p>
               {{else}}
-                <p>{{ .Summary | plainify | safeHTML }}{{ if .Truncated }} ... {{end}} </p>
+                <p>
+                    {{ if .Params.image }}
+                        {{ .Summary | markdownify | safeHTML | truncate 200 }}
+                    {{ else }}
+                        {{ .Summary | markdownify | safeHTML | truncate 350 }}
+                    {{ end }}
+                </p>
               {{end}}
           </section>
       </a>

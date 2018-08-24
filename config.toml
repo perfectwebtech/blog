@@ -5,8 +5,6 @@ disqusShortname = ""
 paginate = 6
 #SectionPagesMenu = "main"
 
-uglyurls = true
-
 [params]
   title = "Matt's Blog"
   subtitle = "Tech and software engineering"

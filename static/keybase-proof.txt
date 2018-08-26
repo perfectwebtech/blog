@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/crookm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+* I am an admin of https://crookm.com
+* I am crookm (https://keybase.io/crookm) on keybase.
+* I have a public key ASDb2xTjW6QH6qhbUN94hemJ1SK8Ye9zadv2gmyUbNmCXgo
+
+To do so, I am signing this object:
+
+{
+"body": {
+"key": {
+"eldest_kid": "01209e7ec9b9568421100807c4bdcb9b5d4a21e7ed4ffe176836e5ef1469b5c523280a",
+"host": "keybase.io",
+"kid": "0120dbdb14e35ba407eaa85b50df7885e989d522bc61ef7369dbf6826c946cd9825e0a",
+"uid": "353788b601e5505dd0a90cc861320319",
+"username": "crookm"
+},
+"merkle_root": {
+"ctime": 1528929715,
+"hash": "e30a36e541e3b5c81f1d987546985a077588fdef054d5d2489392b3ada35185972aee9764dffafc990c38d8279e114d2d4cf7882fdba7848fc6c23ab3a9abd7d",
+"hash_meta": "44eb981ec2233d07f9894fd4957c3a33bcbd2d02c86759f6c59c4681771363ad",
+"seqno": 3073402
+},
+"service": {
+"entropy": "c/d6m6gPQj0N0xYXr20JUwN8",
+"hostname": "crookm.com",
+"protocol": "https:"
+},
+"type": "web_service_binding",
+"version": 2
+},
+"client": {
+"name": "keybase.io go client",
+"version": "2.1.0"
+},
+"ctime": 1528929749,
+"expire_in": 504576000,
+"prev": "1f526a239190b6ef2d915b6e41e297a3fb297fa7a3e65088cb7bd56e9069debb",
+"seqno": 29,
+"tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg29sU41ukB+qoW1DfeIXpidUivGHvc2nb9oJslGzZgl4Kp3BheWxvYWTESpcCHcQgH1JqI5GQtu8tkVtuQeKXo/spf6ej5lCIy3vVbpBp3rvEILLuBcqtutOjQ7m3bfp1WA+PezxcCMJIJXPixFyoGvPUAgHCo3NpZ8RAt+pansayCxJDC1xYPKtPYC32tPbLMwKdi0G58nszwrNWKsiXGyDamDyUEz7iPmI6aW3VBoVc11f5Wu61cw9DBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEDKzOcmkbYTs5dVwjMGcpbrWVC+1C4CNFjdK7ZHWg9Uo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/crookm
+
+==================================================================

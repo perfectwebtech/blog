@@ -23,7 +23,7 @@
     {{ "<!-- Stylesheets -->" | safeHTML }}
     <link rel="stylesheet" type="text/css" href="/assets/css/casper.css" /> 
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" /> 
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" integrity="sha256-Zd1icfZ72UBmsId/mUcagrmN7IN5Qkrvh75ICHIQVTk=" crossorigin="anonymous" />
     {{ range .Site.Params.customCSS }} <link rel="stylesheet" href="{{ . | absURL }}" /> {{ end }}
 
     {{ if .Site.Params.RSSLink}}<link href="{{.Site.Params.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" /> {{else}}{{ if eq .URL "/" }}<link href="{{ "index.xml" | absURL}}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ end }} {{ end }}

@@ -10,7 +10,7 @@ menu:
     name: About
     weight: 190
 
-draft: true
+draft: false
 ---
 
 Hi, my name is Matt Crook, and I’m really into development of all sorts of projects; from web to desktop and mobile!

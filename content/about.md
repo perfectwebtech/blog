@@ -17,7 +17,7 @@ Hi, my name is Matt Crook, and I’m really into development of all sorts of pro
 
 I’m also a student at the University of Auckland, studying computer science and information systems.
 
-My first taste of coding I got when I was about 13, when I had a website on Yola - a drag-and-drop builder. I would insert HTML iframes for other sites, essentially making a dashboard of sorts for all my daily tasks like checking my hotmail and playing Runescape (it was a different time). I had several pages which I lost edit access to due to redirects because I embedded an SSL site - there were many "new new new new email" pages.
+My first taste of coding I got when I was about 10, when I had a website on Yola - a drag-and-drop site builder. I would insert HTML iframes for other sites, essentially making a dashboard of sorts for all my daily tasks like checking my hotmail and playing Runescape (it was a different time). I had several pages which I lost edit access to due to redirects because I embedded an SSL site - there were many "new new new new email" pages.
 
 But I eventually discovered a little thing called PHP, and I was so totally hooked - I got some basic free hosting on a now-defunct service called 'Azok' ([R.I.P.](https://web.archive.org/web/20120212022309/http://azok.org:80/)), and followed some tutorials I found on YouTube. Most of these had something related to my current interest which was, of course, Minecraft. You bet your ass I had a Minecraft server, what 13-14 year-old didn’t?
 

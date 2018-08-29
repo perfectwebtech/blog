@@ -4,7 +4,7 @@ published: 2018-08-11T19:47:00+12:00
 
 tags: ["tooling", "cloud",]
 
-draft: true
+draft: false
 ---
 
 If you're getting a little frustrated with forbidden pages on NGINX server, you'll probably be glad you found this page. I know I would.

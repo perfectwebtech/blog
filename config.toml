@@ -1,4 +1,4 @@
-baseurl = "https://www.crookm.com"
+baseurl = "https://www.crookm.com/"
 #theme = "casper-two"
 languageCode = "en-NZ"
 disqusShortname = ""

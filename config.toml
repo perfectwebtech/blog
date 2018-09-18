@@ -29,7 +29,7 @@ paginate = 6
   author = "Matt Crook"
   authorAvatar = "/assets/image/meta/profile-mc.jpg"
   authorLocation = "Auckland, NZ"
-  authorWebsite = "https://crookm.com"
+  authorWebsite = "https://www.crookm.com/about/"
   authorDescription = "Futurist, technologist, and student at Auckland Uni"
 
   pageNotFoundTitle = "404 - Page not found"

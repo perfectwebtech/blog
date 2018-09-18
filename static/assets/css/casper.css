@@ -951,6 +951,12 @@ body {
   background: rgba(39, 44, 49, 0.15);
   filter: blur(5px);
 }
+@media (max-width: 500px) {
+  .post-full-content.has-image:after,
+  .post-full-content.has-image:before {
+    display:none;
+  }
+}
 .post-full-content:after {
   right: -5px;
   transform: rotate(5deg);

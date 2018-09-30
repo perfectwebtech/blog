@@ -1,8 +1,9 @@
 ---
-title: "Routing by Subdomain"
+title: "Routing by Subdomain in ASP.NET Core MVC"
+slug: "routing-by-subdomain-in-asp-net-core-mvc"
 published: 2018-09-30T23:14:00+12:00
 
-image: /assets/image/2018-09-30-routing-by-dns-c7dac19d-6859-4651-9b43-acf8973d9df0.jpg
+image: /assets/image/2018-09-30-routing-by-subdomain-in-asp-net-core-mvc-c7dac19d-6859-4651-9b43-acf8973d9df0.jpg
 
 tags: [ "dev", "csharp",]
 ---

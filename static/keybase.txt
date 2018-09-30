@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/crookm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://crookm.com
+  * I am crookm (https://keybase.io/crookm) on keybase.
+  * I have a public key ASDr_GQy7gpsc3TMvO2N1GPtkBAaHQuuYwlQmsELEGTymAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209e7ec9b9568421100807c4bdcb9b5d4a21e7ed4ffe176836e5ef1469b5c523280a",
+      "host": "keybase.io",
+      "kid": "0120ebfc6432ee0a6c7374ccbced8dd463ed90101a1d0bae6309509ac10b1064f2980a",
+      "uid": "353788b601e5505dd0a90cc861320319",
+      "username": "crookm"
+    },
+    "merkle_root": {
+      "ctime": 1537946314,
+      "hash": "fab4cbe81c6fa1827990cb6244afe2b64af9bd172487e1a54eaac7436c03e4fe6ed5338f269bd853553d0886f822f1718b8f418ef344a65d9076cde0d652b228",
+      "hash_meta": "03791b1f34c0adaa6f49aa844ae8caf5d5bad728c5237f10073ad7912678e651",
+      "seqno": 3692352
+    },
+    "service": {
+      "entropy": "CGGO2sMRCyxxHJ4LoXNUKWr3",
+      "hostname": "crookm.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.6.2"
+  },
+  "ctime": 1537946325,
+  "expire_in": 504576000,
+  "prev": "f5d6b61b05991162e5e334d087b4f2d31d11aaafb1296ae68f3d63a9e9e46a9f",
+  "seqno": 36,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6/xkMu4KbHN0zLztjdRj7ZAQGh0LrmMJUJrBCxBk8pgKp3BheWxvYWTESpcCJMQg9da2GwWZEWLl4zTQh7Ty0x0Rqq+xKWrmjz1jqenkap/EIH0n6CA9Sdufs4ogkN7LVBkkmoyKtNLb0wRZ/4BuzvPjAgHCo3NpZ8RAREojspC4i7X4Ry7OvCKn+JeQONR31YqOTU6Zqh/XJUD6sipPh/3rymVffezTuFDTVXVMpk9JA3LNR20GWl57AqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHeIvYGkWAa/6oplDqsMpRN+5mwzUaU6r0qWgtxecJcmo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/crookm
+
+==================================================================

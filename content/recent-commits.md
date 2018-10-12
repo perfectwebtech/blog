@@ -9,8 +9,6 @@ menu:
   main:
     name: Recent Commits
     weight: 160
-
-draft: true
 ---
 
 <div style="text-align: center;"><a class="github-button" href="https://github.com/crookm" data-size="large" data-show-count="true" aria-label="Follow @crookm on GitHub">Follow @crookm</a></div>

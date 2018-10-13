@@ -5,8 +5,6 @@ published: 2018-10-14T01:05:00+13:00
 image: /assets/image/2018-10-14-exploring-virtual-reality-8205194c-f63a-432f-8beb-e10b2c46a279.jpg
 
 tags: [ "xr",]
-
-draft: true
 ---
 
 As a research assistant for the ISOM department at my university, I get access to some cool new(ish) tech - the latest being the windows mixed reality platform.

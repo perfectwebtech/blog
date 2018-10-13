@@ -1,7 +1,7 @@
 class API {
   constructor() {
     this.ep =
-      "https://crx-api.azurewebsites.net/api/matt/github/activity/group";
+      "https://api.crookm.com/api/matt/github/activity/group";
     this.setup();
   }
 

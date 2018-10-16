@@ -10,7 +10,7 @@ paginate = 6
   subtitle = "Tech and software engineering"
 
   cover = "https://crookm.ams3.cdn.digitaloceanspaces.com/media/meta/header-1.jpg"
-  #description = "Tech and software engineering"
+  description = "Tech and software engineering"
   metaDescription = ""
   googleAnalytics = "UA-113693681-1"
   customCSS = []
@@ -21,7 +21,7 @@ paginate = 6
   githubName = "crookm"
   linkedinName = "crookm"
 
-  logo = "/assets/image/meta/blog-logo.png"
+  #logo = "/assets/image/meta/blog-logo.png"
   #orgName = "EM"
   #orgWebsite = "https://www.telematika.org"
   #orgDescription = "Here is a description placeholder for your org"

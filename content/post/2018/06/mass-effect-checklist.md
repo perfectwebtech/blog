@@ -2,7 +2,7 @@
 title: "Mass Effect Checklist"
 published: 2018-06-23T22:51:00+12:00
 
-image: /assets/image/2018-06-23-mass-effect-checklist--fb1ce853-6785-4855-9281-5631dccad28f.jpg
+image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/mass-effect-checklist--fb1ce853-6785-4855-9281-5631dccad28f.jpg
 
 tags: [ "portfolio", "dev", "javascript",]
 ---
@@ -13,7 +13,7 @@ Mass Effect is by far my favourite game series, I've played through the game so 
 
 To aid in my unhealthy addiction, I created a list of things that I need to do - allowing me to get to the ending that I like the most. Sometimes I forget what I'm supposed to do or how to do something, and end up having to go over to the Wiki. The problem is, the Wiki is hard to follow. I felt like this checklist format is easier and more logical.
 
-![](/assets/image/2018-06-23-mass-effect-checklist--6fce55fb-3d97-4ab5-bd6e-a27523e9e7b0.png)
+![](https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/mass-effect-checklist--6fce55fb-3d97-4ab5-bd6e-a27523e9e7b0.png)
 
 It's currently at something of an MVP stage, and at the time of writing, I haven't even finished typing-up all the missions. At the moment it's just a proof-of-concept.
 

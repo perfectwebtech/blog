@@ -20,7 +20,7 @@ namei -l /var/www/html/dir/index.html
 
 The permissions string for every directory should at least end with 'x'.
 
-![](/assets/image/2018-08-11-solving-nginx-403-forbidden-errors--44c27e27-f8ba-4432-b820-a6cb6f44afc7.png)
+![](https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/solving-nginx-403-forbidden-errors--44c27e27-f8ba-4432-b820-a6cb6f44afc7.png)
 
 ### Autoindex
 If you're running into a 403 when trying to list a directory, you should know that autoindex is off by default.

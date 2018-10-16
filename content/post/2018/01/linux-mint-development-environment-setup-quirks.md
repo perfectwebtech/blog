@@ -2,7 +2,7 @@
 title: "Linux Mint Development Environment Setup Quirks"
 published: 2018-01-01T17:10:00+13:00
 
-image: /assets/image/2018-01-01-linux-mint-development-environment-setup-quirks--994fe794-b3a8-4031-8a22-a193c50826ee.png
+image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/linux-mint-development-environment-setup-quirks--994fe794-b3a8-4031-8a22-a193c50826ee.png
 
 tags: [ "tooling", "linux",]
 ---

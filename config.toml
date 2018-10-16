@@ -9,8 +9,8 @@ paginate = 6
   title = "Matt's Blog"
   subtitle = "Tech and software engineering"
 
-  cover = "/assets/image/meta/header-1.jpg"
-  description = "Tech and software engineering"
+  cover = "https://crookm.ams3.cdn.digitaloceanspaces.com/media/meta/header-1.jpg"
+  #description = "Tech and software engineering"
   metaDescription = ""
   googleAnalytics = "UA-113693681-1"
   customCSS = []
@@ -27,7 +27,7 @@ paginate = 6
   #orgDescription = "Here is a description placeholder for your org"
 
   author = "Matt Crook"
-  authorAvatar = "/assets/image/meta/profile-mc.jpg"
+  authorAvatar = "https://crookm.ams3.cdn.digitaloceanspaces.com/media/meta/profile-mc.jpg"
   authorLocation = "Auckland, NZ"
   authorWebsite = "https://www.crookm.com/about/"
   authorDescription = "Futurist, technologist, and student at Auckland Uni"

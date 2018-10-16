@@ -15,5 +15,8 @@ menu:
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 <div id="api__GH_commit_activity">
-  <img style="margin-top:60px;" src="https://crookm.ams3.cdn.digitaloceanspaces.com/media/meta/loader.svg" />
+  <div class="loading">
+    <img style="margin-top:60px;" src="https://crookm.ams3.cdn.digitaloceanspaces.com/media/meta/loader.svg" />
+    <p><i>Crunching the lastest data, just for you...</i></p>
+  </div>
 </div>

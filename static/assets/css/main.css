@@ -76,6 +76,20 @@
   color: #e5eff5;
 }
 
+#api__GH_commit_activity .loading {
+  margin: 120px 0 60px;
+}
+
+#api__GH_commit_activity .loading p {
+  margin: 0;
+  max-width: 180px;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  text-align: center;
+}
+
 .activity {
   max-width: 95vw;
 }

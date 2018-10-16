@@ -20,5 +20,5 @@ For encrypting stuff to send to me, you can get my public key through a variety 
 
 * [MIT keyserver](https://pgp.mit.edu/pks/lookup?op=vindex&fingerprint=on&search=0xE59C7CB144B9FD97) (E59C7CB144B9FD97)
 * [Keybase](https://keybase.io/crookm) (crookm)
-* [Asc file](/media/2018/08/matthew-crook.pub.asc)
+* [Asc file](https://crookm.ams3.digitaloceanspaces.com/documents/2018/matthew-crook.pub.asc)
 

@@ -1,7 +1,6 @@
 class API {
   constructor() {
-    this.ep =
-      "https://api.crookm.com/api/matt/github/activity/group";
+    this.ep = "https://api.crookm.com/svcweb/github/commits/recent";
     this.setup();
   }
 
@@ -47,14 +46,14 @@ class API {
     window.$.getJSON(this.ep, data => {
       root.innerHTML = `
         <div class="activity">
-          ${data
+          ${data.data
             .map(
               entry => `
                 <div class="repo">
                   <div class="details">
                     <div class="name">
-                      <a href="${entry.repo.htmlUrl}" target="_BLANK">
-                        <h5>${entry.repo.fullName}</h5>
+                      <a href="${entry.repo.html_url}" target="_BLANK">
+                        <h5>${entry.repo.full_name}</h5>
                       </a>
                     </div>
                     <div class="lang"><p>Written in ${
@@ -72,7 +71,7 @@ class API {
                         commit => `
                           <tr class="commit">
                             <td class="message">
-                              <a href="${commit.htmlUrl}" target="_BLANK">
+                              <a href="${commit.html_url}" target="_BLANK">
                                 ${commit.commit.message}
                               </a>
                             </td>

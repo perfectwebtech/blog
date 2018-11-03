@@ -1,0 +1,23 @@
+<div id="video-container"><i>Please enable JS to watch this video.</i></div>
+
+<script src="/assets/js/jwplayer.js"></script>
+<script>
+  let player = jwplayer('video-container');
+  player.setup({
+    preload: "auto",
+    aspectratio: "16:9",
+    width: "100%",
+    playlist: [
+      {
+        image: '{{ .Get "base" }}thumb.jpg',
+        sources: [
+          { file: '{{ .Get "base" }}dash/manifest.mpd' },
+          { file: '{{ .Get "base" }}hls/manifest.m3u8' },
+          { file: '{{ .Get "base" }}nostream--854x480-2500k.webm' },
+          { file: '{{ .Get "base" }}nostream--854x480-2500k.mp4' }
+        ]
+      }
+    ],
+    "cast": {}
+  });
+</script>

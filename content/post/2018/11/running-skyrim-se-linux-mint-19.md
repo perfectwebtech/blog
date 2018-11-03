@@ -81,4 +81,9 @@ Most of these fixes and configurations will help you run most of the games avail
 
 But in the mean time, enjoy running Skyrim: Special Edition on Linux Mint!
 
-{{< video base="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/running-skyrim-se-linux-mint-19/" >}}
+{{< video
+poster="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/running-skyrim-se-linux-mint-19/thumb.jpg" 
+uri_dash="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/running-skyrim-se-linux-mint-19/dash/manifest.mpd"
+uri_hls="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/running-skyrim-se-linux-mint-19/hls/manifest.m3u8"
+uri_webm="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/running-skyrim-se-linux-mint-19/nostream--854x480-2500k.webm"
+uri_mp4="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/running-skyrim-se-linux-mint-19/nostream--854x480-2500k.mp4" >}}

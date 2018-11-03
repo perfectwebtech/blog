@@ -1,23 +1,48 @@
-<div id="video-container"><i>Please enable JS to watch this video.</i></div>
+<video id="video-container" width="100%" {{ with .Get "poster"}} poster="{{ . }}" {{ end }} controls></video>
 
-<script src="/assets/js/jwplayer.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/2.4.4/shaka-player.compiled.js"></script>
 <script>
-  let player = jwplayer('video-container');
-  player.setup({
-    preload: "auto",
-    aspectratio: "16:9",
-    width: "100%",
-    playlist: [
-      {
-        image: '{{ .Get "base" }}thumb.jpg',
-        sources: [
-          { file: '{{ .Get "base" }}dash/manifest.mpd' },
-          { file: '{{ .Get "base" }}hls/manifest.m3u8' },
-          { file: '{{ .Get "base" }}nostream--854x480-2500k.webm' },
-          { file: '{{ .Get "base" }}nostream--854x480-2500k.mp4' }
-        ]
-      }
-    ],
-    "cast": {}
-  });
+  let container = document.getElementById(`video-container`);
+
+  let player_fallback = () => {
+    console.warn(`falling back to plain sources`);
+
+    {{ with .Get "uri_webm"}}
+    let source_webm = document.createElement(`source`);
+    source_webm.src = {{ . }};
+    container.appendChild(source_webm);
+    {{ end }}
+
+    {{ with .Get "uri_mp4"}}
+    let source_mp4 = document.createElement(`source`);
+    source_mp4.src = {{ . }};
+    container.appendChild(source_mp4);
+    {{ end }}
+  };
+
+  let player_init = async () => {
+    let player = new shaka.Player(container);
+    window.player = player;
+
+    player.addEventListener(`error`, console.error);
+
+    // try dash first
+    {{ with .Get "uri_dash"}}
+    await player.load({{ . }}).catch(async () => { {{ end }}
+      // didnt work, try hls
+      {{ with .Get "uri_hls"}} await player.load({{ . }}).catch(() => { {{ end }}
+        player.destroy();
+        player_fallback();
+      {{ with .Get "uri_hls"}} }); {{ end }}
+    {{ with .Get "uri_dash"}} }); {{ end }}
+  };
+
+  let player_setup = () => {
+    shaka.polyfill.installAll();
+
+    if (shaka.Player.isBrowserSupported()) player_init();
+    else player_fallback();
+  };
+
+  document.addEventListener(`DOMContentLoaded`, player_setup);
 </script>

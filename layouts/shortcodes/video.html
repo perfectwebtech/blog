@@ -37,9 +37,10 @@
 
     // try dash first
     {{ with .Get "uri_dash"}}
-    await player.load({{ . }}).catch(async () => { {{ end }}
+    await player.load({{ . }}).catch(async e => { {{ end }}
       // didnt work, try hls
-      {{ with .Get "uri_hls"}} await player.load({{ . }}).catch(() => { {{ end }}
+      {{ with .Get "uri_hls"}} await player.load({{ . }}).catch(e => { {{ end }}
+        console.error(e);
         player.destroy();
         player_fallback();
       {{ with .Get "uri_hls"}} }); {{ end }}

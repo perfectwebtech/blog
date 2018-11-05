@@ -1,12 +1,19 @@
 class API {
   constructor() {
-    this.ep = "https://api.crookm.com/svcweb/github/commits/recent";
+    this.base = "https://api.crookm.com/svcweb";
     this.setup();
   }
 
   setup() {
-    let root = document.getElementById("api__GH_commit_activity");
-    if (root != null) this.GH__getCommitActivity(root);
+    let gh_commit_activity_root = document.getElementById(
+      "api__GH_commit_activity"
+    );
+    if (gh_commit_activity_root != null)
+      this.GH__getCommitActivity(gh_commit_activity_root);
+
+    let tw_reply_thread_root = document.getElementById("api__TW_reply_thread");
+    if (tw_reply_thread_root != null)
+      this.TW__getPostThread(tw_reply_thread_root);
   }
 
   since(date) {
@@ -43,7 +50,7 @@ class API {
   }
 
   GH__getCommitActivity(root) {
-    window.$.getJSON(this.ep, data => {
+    window.$.getJSON(`${this.base}/github/commits/recent`, data => {
       root.innerHTML = `
         <div class="activity">
           ${data.data
@@ -96,6 +103,33 @@ class API {
         </div>
       `;
     });
+  }
+
+  TW__getPostThread(root) {
+    window.$.getJSON(
+      `${this.base}/twitter/post/thread?path=${window.location.pathname}`,
+      data => {
+        if (data["list"] && data["id"]) {
+          let list = data["list"].replace("custom-", "");
+          let tl_url = `https://twitter.com/mattlc_3/timelines/${list}`;
+          root.innerHTML = `
+            <div id="reply-widget">
+              <div class="twbutton-container">
+                <a class="twbutton" title="Reply to this post" href="https://twitter.com/intent/tweet?in_reply_to=${data["id"]}">
+                  <i></i>
+                  <span class="twbutton-label">Reply</span>
+                </a>
+              </div>
+            </div>
+            
+            <a class="twitter-timeline" data-dnt="true" href="${tl_url}">Replies - Curated tweets by mattlc_3</a>`;
+
+          twttr.widgets.load(root); // setup the widget
+        }
+
+        // else no comments thread found, just ignore
+      }
+    );
   }
 }
 

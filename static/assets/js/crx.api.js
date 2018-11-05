@@ -115,9 +115,9 @@ class API {
           root.innerHTML = `
             <div id="reply-widget">
               <div class="twbutton-container">
-                <a class="twbutton" title="Reply to this post" href="https://twitter.com/intent/tweet?in_reply_to=${data["id"]}">
+                <a class="twbutton" title="Reply to this post" href="https://twitter.com/intent/tweet?in_reply_to=${data["id"]}&ref_src=twsrc%5Etfw">
                   <i></i>
-                  <span class="twbutton-label">Reply</span>
+                  <span class="twbutton-label">Tweet your Response</span>
                 </a>
               </div>
             </div>

@@ -3,9 +3,22 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/2.4.4/shaka-player.compiled.js"></script>
 <script>
   let container = document.getElementById(`video-container`);
+  let handle_video_event = (action, is_interaction) => {
+    gtag("event", action, {
+      event_category: "video_blogcontent",
+      {{ with .Get "title"}} event_label: {{ . }}, {{ end }}
+      non_interaction: !is_interaction,
+      value: container.currentTime
+    });
+    console.info(`[i] video_event - fired ${action} @ ${container.currentTime}s`);
+  };
 
+  container.addEventListener("playing", () => handle_video_event("video_start", true));
+  container.addEventListener("pause", () => handle_video_event("video_stop", true));
+  container.addEventListener("ended", () => handle_video_event("video_ended", true));
+  
   let player_fallback = () => {
-    console.warn(`falling back to plain sources`);
+    handle_video_event("video_fallback", false);
 
     {{ with .Get "uri_webm"}}
     let source_webm = document.createElement(`source`);
@@ -29,11 +42,17 @@
       }
     });
 
-    console.log(player.getConfiguration());
-
     window.player = player;
 
-    player.addEventListener(`error`, console.error);
+    player.addEventListener("error", console.error);
+    player.addEventListener("adaptation", () => {
+      gtag("event", "video_adaptation", {
+        event_category: "video_blogcontent",
+        {{ with .Get "title"}} event_label: {{ . }}, {{ end }}
+        value: player.getStats().estimatedBandwidth || -1
+      });
+      console.info(`[i] video_event - fired video_adaptation`);
+    });
 
     // try dash first
     {{ with .Get "uri_dash"}}
@@ -54,5 +73,5 @@
     else player_fallback();
   };
 
-  document.addEventListener(`DOMContentLoaded`, player_setup);
+  document.addEventListener("DOMContentLoaded", player_setup);
 </script>

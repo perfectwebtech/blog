@@ -3,6 +3,8 @@ title: Running Skyrim SE on Linux Mint 19
 published: 2018-11-03T14:08:00+12:00
 
 image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/running-skyrim-se-linux-mint-19--8a23a7fd-e4a6-4574-87c6-7549fba20711.png
+
+tags: [ "linux",]
 ---
 
 Skyrim: Special Edition works right out of the box with Steam Play, but takes some configuration to work excellently. Here's a short guide of how I got everything working on Linux Mint 19, with an NVidia GPU.

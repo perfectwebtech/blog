@@ -1,6 +1,6 @@
 class API {
   constructor() {
-    this.base = "https://api.crookm.com/svcweb";
+    this.base = "https://api.crookm.com/v2";
     this.setup();
   }
 
@@ -50,7 +50,7 @@ class API {
   }
 
   GH__getCommitActivity(root) {
-    window.$.getJSON(`${this.base}/github/commits/recent`, data => {
+    window.$.getJSON(`${this.base}/gh/get/activity`, data => {
       root.innerHTML = `
         <div class="activity">
           ${data.data
@@ -107,7 +107,7 @@ class API {
 
   TW__getPostThread(root) {
     window.$.getJSON(
-      `${this.base}/twitter/post/thread?path=${window.location.pathname}`,
+      `${this.base}/tw/get/thread?path=${window.location.pathname}`,
       data => {
         if (data["list"] && data["id"]) {
           let list = data["list"].replace("custom-", "");

@@ -1,0 +1,2 @@
+https://crookm.com/*        https://www.crookm.com/:splat     301!
+/:year/:month/:slug.html    /journal/:year/:slug/             301

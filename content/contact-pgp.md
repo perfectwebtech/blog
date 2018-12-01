@@ -18,7 +18,7 @@ draft: false
 
 For encrypting stuff to send to me, you can get my public key through a variety of ways:
 
-* [MIT keyserver](https://pgp.mit.edu/pks/lookup?op=vindex&fingerprint=on&search=0xE59C7CB144B9FD97) (E59C7CB144B9FD97)
+* [MIT keyserver](https://pgp.mit.edu/pks/lookup?op=vindex&search=0x04039FD454224CD8) (04039FD454224CD8)
 * [Keybase](https://keybase.io/crookm) (crookm)
-* [Asc file](https://crookm.ams3.digitaloceanspaces.com/documents/2018/matthew-crook.pub.asc)
+* [Asc file](https://crookm.ams3.digitaloceanspaces.com/documents/2018/mcro591-aucklanduni.pub.asc)
 

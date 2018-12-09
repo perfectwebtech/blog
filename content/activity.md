@@ -1,5 +1,5 @@
 ---
-title: Recent Commits
+title: Activity
 published: 2018-10-01T15:45:00+12:00
 
 type: page
@@ -7,7 +7,7 @@ share: true
 
 menu:
   main:
-    name: Recent Commits
+    name: Activity
     weight: 160
 ---
 

@@ -20,6 +20,7 @@ paginate = 6
   fbName = ""
   githubName = "crookm"
   linkedinName = "crookm"
+  mastodonName = "crookm"
 
   #logo = "/assets/image/meta/blog-logo.png"
   #orgName = "EM"

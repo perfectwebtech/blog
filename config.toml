@@ -14,7 +14,7 @@ paginate = 6
   metaDescription = ""
   googleAnalytics = "UA-113693681-1"
   customCSS = []
-  #RSSLink = "/index.xml"
+  RSSLink = "/index.xml"
 
   twitterName = "mattlc_3"
   fbName = ""
@@ -26,6 +26,8 @@ paginate = 6
   #orgName = "EM"
   #orgWebsite = "https://www.telematika.org"
   #orgDescription = "Here is a description placeholder for your org"
+
+  copyright = "&copy; Copyright 2019"
 
   author = "Matt Crook"
   authorAvatar = "https://crookm.ams3.cdn.digitaloceanspaces.com/media/meta/profile-mc.jpg"

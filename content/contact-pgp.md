@@ -12,13 +12,12 @@ menu:
     name: PGP
     parent: Contact
     weight: 175
-
-draft: false
 ---
 
 For encrypting stuff to send to me, you can get my public key through a variety of ways:
 
-* [MIT keyserver](https://pgp.mit.edu/pks/lookup?op=vindex&search=0x04039FD454224CD8) (04039FD454224CD8)
+* [GnuPG keyserver](http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0xE602B741D857271A) (E602B741D857271A)
+* [MIT keyserver](https://pgp.mit.edu/pks/lookup?op=vindex&search=0xE602B741D857271A) (E602B741D857271A)
+* [Asc file](https://crookm.ams3.digitaloceanspaces.com/documents/2019/pubkey/matt.crook98-gmail.pub.asc) (matt.crook98-gmail.pub.asc)
 * [Keybase](https://keybase.io/crookm) (crookm)
-* [Asc file](https://crookm.ams3.digitaloceanspaces.com/documents/2018/mcro591-aucklanduni.pub.asc)
 

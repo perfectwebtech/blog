@@ -25,8 +25,7 @@ Future changes will mostly be on UX, interactivity (such as a success calculator
 - React
 - Netlify
 - Foundation
-- Azure Functions
-- Application Insights
+- Google Cloud Functions
 
-[Check it out &rarr;](https://me-checklist.netlify.com/)  
+[Check it out &rarr;](https://masseffectlist.com/)  
 [GitHub repo &rarr;](https://github.com/crookm/me-checklist)

@@ -59,9 +59,9 @@ class API {
                 <div class="repo">
                   <div class="details">
                     <div class="name">
-                      ${entry.repo.public && `<a href="${entry.repo.html_url}" target="_BLANK">`}
+                      ${!entry.repo.private && `<a href="${entry.repo.html_url}" target="_BLANK">`}
                         <h5>${entry.repo.full_name}</h5>
-                      ${entry.repo.public && `</a>`}
+                      ${!entry.repo.private && `</a>`}
                     </div>
                     <div class="lang"><p>
                     Written in ${entry.repo.language}

@@ -59,17 +59,21 @@ class API {
                 <div class="repo">
                   <div class="details">
                     <div class="name">
-                      ${!entry.repo.private && `<a href="${entry.repo.html_url}" target="_BLANK">`}
+                      ${
+                        !entry.repo.private
+                          ? `<a href="${entry.repo.html_url}" target="_BLANK">`
+                          : ""
+                      }
                         <h5>${entry.repo.full_name}</h5>
-                      ${!entry.repo.private && `</a>`}
+                      ${!entry.repo.private ? `</a>` : ""}
                     </div>
                     <div class="lang"><p>
                     Written in ${entry.repo.language}
                     <br />
-                    Updated <time datetime="${entry.repo.updated_at}" title="${entry.repo.updated_at}">
-                      ${this.since(
-                        new Date(entry.repo.updated_at)
-                      )} ago
+                    Updated <time datetime="${entry.repo.updated_at}" title="${
+                entry.repo.updated_at
+              }">
+                      ${this.since(new Date(entry.repo.updated_at))} ago
                     </time>
                     </p></div>
                     <p>${
@@ -78,7 +82,9 @@ class API {
                         : `<i>No description</i>`
                     }</p>
                   </div>
-                  ${entry.commits.length > 0 && `<table class="commits">
+                  ${
+                    entry.commits.length > 0
+                      ? `<table class="commits">
                     ${entry.commits
                       .map(
                         commit => `
@@ -101,7 +107,9 @@ class API {
                         `
                       )
                       .join("")}
-                  </table>`}
+                  </table>`
+                      : ""
+                  }
                 </div>
               `
             )
@@ -121,7 +129,9 @@ class API {
           root.innerHTML = `
             <div id="reply-widget">
               <div class="twbutton-container">
-                <a class="twbutton" title="Reply to this post" href="https://twitter.com/intent/tweet?in_reply_to=${data["id"]}&ref_src=twsrc%5Etfw">
+                <a class="twbutton" title="Reply to this post" href="https://twitter.com/intent/tweet?in_reply_to=${
+                  data["id"]
+                }&ref_src=twsrc%5Etfw">
                   <i></i>
                   <span class="twbutton-label">Tweet your Response</span>
                 </a>

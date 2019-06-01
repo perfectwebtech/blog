@@ -59,20 +59,26 @@ class API {
                 <div class="repo">
                   <div class="details">
                     <div class="name">
-                      <a href="${entry.repo.html_url}" target="_BLANK">
+                      ${entry.repo.public && `<a href="${entry.repo.html_url}" target="_BLANK">`}
                         <h5>${entry.repo.full_name}</h5>
-                      </a>
+                      ${entry.repo.public && `</a>`}
                     </div>
-                    <div class="lang"><p>Written in ${
-                      entry.repo.language
-                    }</p></div>
+                    <div class="lang"><p>
+                    Written in ${entry.repo.language}
+                    <br />
+                    Updated <time datetime="${entry.repo.updated_at}" title="${entry.repo.updated_at}">
+                      ${this.since(
+                        new Date(entry.repo.updated_at)
+                      )} ago
+                    </time>
+                    </p></div>
                     <p>${
                       entry.repo.description
                         ? entry.repo.description
                         : `<i>No description</i>`
                     }</p>
                   </div>
-                  <table class="commits">
+                  ${entry.commits.length > 0 && `<table class="commits">
                     ${entry.commits
                       .map(
                         commit => `
@@ -95,7 +101,7 @@ class API {
                         `
                       )
                       .join("")}
-                  </table>
+                  </table>`}
                 </div>
               `
             )

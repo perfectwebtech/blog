@@ -1,5 +1,5 @@
 ---
-title: Activity
+title: GitHub Activity
 published: 2018-10-01T15:45:00+12:00
 
 type: page
@@ -7,7 +7,7 @@ share: true
 
 menu:
   main:
-    name: Activity
+    name: GitHub Activity
     weight: 160
 ---
 

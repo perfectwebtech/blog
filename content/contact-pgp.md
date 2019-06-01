@@ -14,10 +14,11 @@ menu:
     weight: 175
 ---
 
-For encrypting stuff to send to me, you can get my public key through a variety of ways:
+My public PGP key for `mattlc_3@icloud.com` can be found here:
 
-* [GnuPG keyserver](http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0xE602B741D857271A) (E602B741D857271A)
-* [MIT keyserver](https://pgp.mit.edu/pks/lookup?op=vindex&search=0xE602B741D857271A) (E602B741D857271A)
-* [Asc file](https://crookm.ams3.digitaloceanspaces.com/documents/2019/pubkey/matt.crook98-gmail.pub.asc) (matt.crook98-gmail.pub.asc)
-* [Keybase](https://keybase.io/crookm) (crookm)
+* [.NZ Keyserver](http://pgp.net.nz:11371/pks/lookup?op=vindex&search=0xF140CE93F7551EA6) (`F140CE93F7551EA6`)
+* [Asc file](https://crookm.ams3.digitaloceanspaces.com/documents/2019/pubkey/mattlc_3-icloud.pub.asc) (`mattlc_3-icloud.pub.asc`)
 
+The .NZ keyserver has peerings with most of the popular key servers, [outlined here](https://pgp.net.nz/pages/peers.html), that you can just search for me by key id or email on your favourite.
+
+I just listed the .NZ server because it's the only one I know of that's always online. MIT's server was down at the time of writing, big surprise.

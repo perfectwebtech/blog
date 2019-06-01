@@ -20,7 +20,7 @@ paginate = 6
   fbName = ""
   githubName = "crookm"
   linkedinName = "crookm"
-  mastodonName = "crookm"
+  #mastodonName = "crookm"
 
   #logo = "/assets/image/meta/blog-logo.png"
   #orgName = "EM"
@@ -32,8 +32,8 @@ paginate = 6
   author = "Matt Crook"
   authorAvatar = "https://crookm.ams3.cdn.digitaloceanspaces.com/media/meta/profile-mc.jpg"
   authorLocation = "Auckland, NZ"
-  authorWebsite = "https://www.crookm.com/about/"
-  authorDescription = "Futurist, technologist, and student at Auckland Uni"
+  #authorWebsite = "https://www.crookm.com/about/"
+  authorDescription = "Futurist, technologist, and developer"
 
   pageNotFoundTitle = "404 - Page not found"
 

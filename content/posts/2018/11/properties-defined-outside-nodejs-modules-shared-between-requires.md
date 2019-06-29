@@ -2,7 +2,7 @@
 title: Properties Defined Outside NodeJS Modules Shared Between Requires
 published: 2018-11-10T20:43:00+12:00
 
-tags: [ "dev", "js",]
+tags: [ "dev",]
 ---
 
 If you use Node.js modules in any capacity, you may or may not benefit from the knowledge that properties defined outside the module are shared between every `require()` you call.

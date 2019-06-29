@@ -5,7 +5,7 @@ published: 2018-05-10T23:46:00+12:00
 
 #image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/sharing-wifi-connection-over-ethernet-ubuntu-18-04--2ccfd293-2211-4163-b960-a1397a90c7ab.png
 
-tags: [ "tooling", "linux",]
+tags: [ "linux",]
 ---
 
 I wanted to share my Ubuntu 18 desktop's WiFi connection over Ethernet to my Raspberry Pi - however, some of the software you need to do this is no longer readily available, as it is superseded by the new settings app in Ubuntu 18.

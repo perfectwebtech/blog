@@ -1,6 +1,6 @@
 <video id="video-container" width="100%" {{ with .Get "poster"}} poster="{{ . }}" {{ end }} controls></video>
 
-<script src="/assets/js/shaka-player-2.4.4.js"></script>
+<script src="/js/shaka-player-2.4.4.js"></script>
 <script>
   let container = document.getElementById(`video-container`);
   let handle_video_event = (action, is_interaction) => {

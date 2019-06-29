@@ -1,7 +1,5 @@
-https://crookm.com/*        https://www.crookm.com/:splat     301!
+https://www.crookm.com/*        https://crookm.com/:splat     301!
 
 # just redirect notable incoming links
 /2018/02/one-page-app-routing-on-netlify.html /journal/2018/one-page-app-routing-on-netlify/ 301
 /2018/05/sharing-wifi-connection-over-ethernet.html /journal/2018/sharing-wifi-connection-over-ethernet/ 301
-
-/recent-commits/ /activity/ 301

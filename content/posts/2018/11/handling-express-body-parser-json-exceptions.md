@@ -2,7 +2,7 @@
 title: Handling Express.js Body Parser JSON Exceptions
 published: 2018-11-10T22:00:00+12:00
 
-tags: [ "dev", "js", "snippet",]
+tags: [ "dev",]
 ---
 
 Express.js, an HTTP server for Node.js, has middleware that you have to install to parse and work with the `req` body objects on POST routes - the problem is, it doesn't make it particularly easy to handle errors yourself.

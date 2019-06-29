@@ -2,7 +2,10 @@
 title: Google Analytics in React
 published: 2019-02-23T13:53:46+13:00 
 
-image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2019/ga-in-react--2af77d3b-b690-426d-9b5a-047a2ab5dbc5.jpg
+#image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2019/ga-in-react--2af77d3b-b690-426d-9b5a-047a2ab5dbc5.jpg
+
+# pulled because i think it's dumb now (2019-06-29)
+draft: true
 ---
 
 I was polishing one of my old react projects, the [Mass Effect Checklist](https://masseffectlist.com/), and I noticed that I was capturing analytics using Microsoft Application Insights. I don't really use that any more, so I thought I would update it to use Google Analytics.

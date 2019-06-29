@@ -61,7 +61,3 @@ Here's how I thought I would try to solve this:
 ```
 
 In the above example, my webpage might use resources from my own domain, and maybe a JS script from jsDelivr. Everything else the webview might load should be considered external, and should be opened in an external browser.
-
----
-
-Please tweet me below if you think you have a better idea of how to solve this problem, I would really like to know!

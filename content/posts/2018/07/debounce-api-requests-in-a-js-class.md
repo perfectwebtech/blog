@@ -2,7 +2,7 @@
 title: "Debounce API Requests in a JS Class"
 published: 2018-07-06T10:30:00+12:00
 
-tags: [ "dev", "javascript", "snippet",]
+tags: [ "dev",]
 ---
 
 I have a react application that needs to access an API endpoint on the client side - which is hit when a user clicks on a button, as well as a few other places in the UI. The trouble is, the API endpoint is a cloud function, which is charged on a per-execution basis.

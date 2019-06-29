@@ -3,9 +3,9 @@ title: "Routing by Subdomain in ASP.NET Core MVC"
 slug: "routing-by-subdomain-in-asp-net-core-mvc"
 published: 2018-09-30T23:14:00+12:00
 
-image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/routing-by-subdomain-in-asp-net-core-mvc-c7dac19d-6859-4651-9b43-acf8973d9df0.jpg
+#image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/routing-by-subdomain-in-asp-net-core-mvc-c7dac19d-6859-4651-9b43-acf8973d9df0.jpg
 
-tags: [ "dev", "csharp",]
+tags: [ "dev",]
 ---
 
 A long time ago I wanted to do some routing through a project using a wildcard subdomain, something like a simulated multi-tenanted setup for a service.
@@ -167,5 +167,3 @@ namespace DNSRouting.Controllers
 That's about it! You could do some kind of lookup on the host to get some kind of info from a data connection, and work with it like you would as if it was it's own web app! 🌐
 
 I put everything into a repo as a full web app - you can [find that here](https://github.com/crookm/dnsrouting).
-
-*Header image is licensed under CC0 Creative Commons -- [source](https://pixabay.com/en/new-zealand-river-stream-landscape-2666076/)*.

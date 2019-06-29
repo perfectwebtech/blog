@@ -2,9 +2,9 @@
 title: Unreliable LAN Server Connection
 published: 2018-12-17T20:00:00+12:00
 
-tags: [ "networking", "linux",]
-
 image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/unreliable-lan-server-connection--f136679b-c53f-4e15-8fa9-02ca272ba93b.png
+
+tags: [ "linux",]
 ---
 
 I have a web server that I use on the local network for various tasks, and when browsing it from my laptop I would find that it randomly stops responding, the LAN server connection was very unreliable.
@@ -35,7 +35,3 @@ sudo arp -s <client IP> <client MAC>
 And now you can see that the ARP table on the server is set correctly now! This fixed the problem, and I haven't had any issues since implementing this fix.
 
 ![firefox showing the NGINX server index page](https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/unreliable-lan-server-connection--9e5df4e2-0e39-4949-93cc-e420d3e9dbd6.png)
-
----
-
-Let me know in the responses below if you had a similar issue, I'm hoping I'm not the only one facing dumb networking issues like this every other day! 😂

@@ -2,9 +2,10 @@
 title: "Mass Effect Checklist"
 published: 2018-06-23T22:51:00+12:00
 
-image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/mass-effect-checklist--fb1ce853-6785-4855-9281-5631dccad28f.jpg
+#image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/mass-effect-checklist--fb1ce853-6785-4855-9281-5631dccad28f.jpg
 
-tags: [ "portfolio", "dev", "javascript",]
+tags: [ "dev",]
+categories: [ "portfolio",]
 ---
 
 I wanted to build something for my portfolio, so I decided to over-engineer something basic with a sketchy idea: the Mass Effect Checklist! 😃

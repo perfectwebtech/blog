@@ -2,9 +2,10 @@
 title: "Solving NGINX 403 Forbidden Errors"
 published: 2018-08-11T19:47:00+12:00
 
-tags: ["tooling", "cloud",]
+tags: [ "linux",]
 
-draft: false
+# pulled because i think it's dumb now (2019-06-29)
+draft: true
 ---
 
 If you're getting a little frustrated with forbidden pages on NGINX server, you'll probably be glad you found this page. I know I would.

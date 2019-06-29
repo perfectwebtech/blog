@@ -2,7 +2,7 @@
 title: AWS S3 JS SDK Ignoring Endpoint Setting
 published: 2018-10-22T12:38:00+13:00
 
-tags: [ "dev", "js", "snippet",]
+tags: [ "dev",]
 ---
 
 I was setting up an application that connected to [DigitalOcean Spaces](https://m.do.co/c/f8ffd8a5f356), an S3-compatible object storage service. I was following [this tutorial](https://www.digitalocean.com/community/tutorials/how-to-upload-a-file-to-object-storage-with-node-js) for an intro - because I've never used the AWS SDK before this.

@@ -2,7 +2,7 @@
 title: MacOS Brew Error - Ignoring Bigdecimal
 published: 2019-04-20T11:00:00+12:00
 
-tags: [ "tooling", "apple",]
+tags: [ "tooling",]
 ---
 
 For the longest of times, I've been getting an error or warning message from Brew whenever I used any of its commands. It didn't cause any issues with using it, but it was just annoying as hell:

@@ -2,7 +2,7 @@
 title: "HTTP Authentication Dictionary Attack"
 published: 2018-05-21T07:59:00+12:00
 
-tags: [ "snippet", "security", "python",]
+tags: [ "infosec", "dev",]
 ---
 
 Here's a little snippet of Python code to crack HTTP digest authentication, getting a user's password given information from a captured packet and a wordlist.

@@ -2,9 +2,12 @@
 title: "Alternative Backup Locations"
 published: 2018-04-08T18:02:00+12:00
 
-image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/alternative-backup-locations--1af25f31-2bab-4d06-b33d-c32281b37bc4.png
+#image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/alternative-backup-locations--1af25f31-2bab-4d06-b33d-c32281b37bc4.png
 
 tags: [ "security", "linux", "cloud",]
+
+# pulled because i think it's dumb now (2019-06-29)
+draft: true
 ---
 
 I have a few Ubuntu machines here-and-there, and one of my most recent additions is my MacBook Air. I installed Ubuntu 17.10.1 and so far it's okay.

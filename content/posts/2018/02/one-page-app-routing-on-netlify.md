@@ -2,7 +2,7 @@
 title: "One-Page App Routing on Netlify"
 published: 2018-02-19T19:52:00+13:00
 
-tags: [ "tooling", "dev", "cloud",]
+tags: [ "tooling",]
 ---
 
 While playing around with react router on a react app I'm building and deploying to Netlify, I noticed that I would get a 404 page not found error if I fully-refreshed the page, or entered from a location other than the index.

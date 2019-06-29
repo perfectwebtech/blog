@@ -2,9 +2,9 @@
 title: Storing Files in Steam Cloud Sync
 published: 2019-02-09T10:00:00+12:00
 
-tags: [ "cloud",]
-
 image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2019/storing-files-in-steam-cloud-sync--3c668ad9-a718-4f1d-b310-dbb1813abc50.png
+
+tags: [ "fun",]
 ---
 
 Just got to playing around with some Steam games, and the Cloud Sync feature got me thinking, could I store any file in here? It's not going to be the next Google Drive, but I thought it would be fun to explore.

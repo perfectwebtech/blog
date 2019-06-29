@@ -3,7 +3,7 @@ title: "Node.js NGINX SSL Reverse Proxy with Websocket Support"
 slug: nodejs-nginx-ssl-reverse-proxy-with
 published: 2017-12-19T16:50:00+13:00
 
-tags: [ "cloud",]
+tags: [ "linux",]
 ---
 
 While not a strict requirement of a Node.js web project, good non-thread-blocking reverse proxy software - such as NGINX - can never hurt. One of the reasons I always use one is for much simpler and mature SSL support, as well as being able to run multiple public-facing web apps on the same VPS.

@@ -3,6 +3,9 @@ title: "Eventual Data Design"
 published: 2018-02-23T11:30:00+13:00
 
 tags: [ "dev", "cloud",]
+
+# pulled because i think it's dumb now (2019-06-29)
+draft: true
 ---
 
 I do a lot of work with web API's, particularly as React web-app back-ends, and an issue I constantly run-into is the speed at which these requests return. These long-running web requests makes pages slow to render, with content having to be hidden behind a loader or other skeleton animation while the user waits.

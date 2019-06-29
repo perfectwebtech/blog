@@ -2,7 +2,10 @@
 title: When Your String Breaks fscanf()
 published: 2018-09-18T23:28:00+12:00
 
-tags: [ "dev", "c", "snippet",]
+tags: [ "dev",]
+
+# pulled because i think it's dumb now (2019-06-29)
+draft: true
 ---
 
 Have you ever run into a problem with (f)scanf in C? Well I sure have, and here's a short horror story, and how I went about fixing it.

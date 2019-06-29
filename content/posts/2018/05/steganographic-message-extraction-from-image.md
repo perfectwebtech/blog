@@ -2,7 +2,7 @@
 title: "Steganographic Message Extraction from Image"
 published: 2018-05-23T18:58:00+12:00
 
-tags: [ "snippet", "security", "python", ]
+tags: [ "infosec", "dev", ]
 ---
 
 Steganography is the practice of hiding data in plain sight, such as within the pixel data in an image, video, or audio file. There are infinitely many ways of doing this, by changing the order or distance that the message bits are stored from each other - but it is most important that it remains constant, and that the person you're sending the message to knows how to decode it!

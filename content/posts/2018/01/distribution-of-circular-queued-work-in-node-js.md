@@ -3,6 +3,9 @@ title: "Distribution of Circular Queued Work in Node.js"
 published: 2018-01-17T17:21:00+13:00
 
 tags: [ "dev", "javascript",]
+
+# pulled because i think it's dumb now (2019-06-29)
+draft: true
 ---
 
 I was building an application that worked with Twitter for a friend, but it unfortunately got killed by Twitter for violating their terms of service - oops. However, that application, while it was running, needed to be able to work with a lot of inputs at critical times. There was no way that a single operator on a circular queue, slowly working its way through linearly, was going to cut it - more and more items would expire before it can get back to the beginning.

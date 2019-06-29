@@ -2,7 +2,7 @@
 title: Exploring Virtual Reality
 published: 2018-10-14T01:05:00+13:00
 
-image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/exploring-virtual-reality-8205194c-f63a-432f-8beb-e10b2c46a279.jpg
+#image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/exploring-virtual-reality-8205194c-f63a-432f-8beb-e10b2c46a279.jpg
 
 tags: [ "xr",]
 ---

@@ -3,6 +3,9 @@ title: "Invalid Active Developer Path after Updating MacOS"
 published: 2017-10-07T15:50:00+13:00
 
 tags: [ "apple", "tooling",]
+
+# pulled because i think it's dumb now (2019-06-29)
+draft: true
 ---
 
 I updated to the latest version of MacOS (High Sierra), which is really great. Nothing I used really changed but eh.

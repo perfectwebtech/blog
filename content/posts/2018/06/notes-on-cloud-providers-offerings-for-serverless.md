@@ -3,6 +3,9 @@ title: "Notes on Cloud Providers Offerings for Serverless"
 published: 2018-06-22T12:22:00.001000+12:00
 
 tags: [ "tooling", "dev", "cloud",]
+
+# pulled because i think it's dumb now (2019-06-29)
+draft: true
 ---
 
 I just had some notes I wanted to share regarding using serverless

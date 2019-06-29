@@ -4,7 +4,10 @@ published: 2018-11-04T17:26:00+12:00
 
 image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/transcoding-to-dash-and-hls-with-ffmpeg--9b3ab1d4-5fac-4534-aff0-b09e437e58d3.jpg
 
-tags: [ "linux", "snippet",]
+tags: [ "linux",]
+
+# pulled because i think it's dumb now (2019-06-29)
+draft: true
 ---
 
 For my [previous post](https://www.crookm.com/journal/2018/running-skyrim-se-on-linux-mint-19/), I wanted to include a short video as a proof of the concept I was discussing. What I thought was going to be a simple foray into the world of DASH and HLS streaming video, quickly turned into a nightmare.
@@ -160,5 +163,3 @@ ffmpeg -i original.mkv -ss 00:00:25 -vframes 1 -vf scale=1280:720 -q:v 5 thumb.j
 ```
 
 And that should be all of it! Upload it all somewhere that supports partial http requests (byte range), and then you can set up your player! I recommend [DigitalOcean spaces](https://m.do.co/c/f8ffd8a5f356) as a host, and [Shaka](https://github.com/google/shaka-player) as a player.
-
-*Header image by [Wahid Khene](https://unsplash.com/photos/iKdQCIiSMlQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*

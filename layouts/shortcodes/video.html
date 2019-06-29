@@ -3,23 +3,8 @@
 <script src="/js/shaka-player-2.4.4.js"></script>
 <script>
   let container = document.getElementById(`video-container`);
-  let handle_video_event = (action, is_interaction) => {
-    gtag("event", action, {
-      event_category: "video_blogcontent",
-      {{ with .Get "title"}} event_label: {{ . }}, {{ end }}
-      non_interaction: !is_interaction,
-      value: container.currentTime
-    });
-    console.info(`[i] video_event - fired ${action} @ ${container.currentTime}s`);
-  };
-
-  container.addEventListener("playing", () => handle_video_event("video_start", true));
-  container.addEventListener("pause", () => handle_video_event("video_stop", true));
-  container.addEventListener("ended", () => handle_video_event("video_ended", true));
   
   let player_fallback = () => {
-    handle_video_event("video_fallback", false);
-
     {{ with .Get "uri_webm"}}
     let source_webm = document.createElement(`source`);
     source_webm.src = {{ . }};
@@ -45,14 +30,6 @@
     window.player = player;
 
     player.addEventListener("error", console.error);
-    player.addEventListener("adaptation", () => {
-      gtag("event", "video_adaptation", {
-        event_category: "video_blogcontent",
-        {{ with .Get "title"}} event_label: {{ . }}, {{ end }}
-        value: player.getStats().estimatedBandwidth || -1
-      });
-      console.info(`[i] video_event - fired video_adaptation`);
-    });
 
     // try dash first
     {{ with .Get "uri_dash"}}

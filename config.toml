@@ -9,7 +9,7 @@ pygmentsStyle = "friendly"
 pygmentsCodeFences = true
 
 [params]
-  topmenu = "categories" # enables topmenu
+  topmenu = "none" # enables topmenu (categories)
   #toc = true # table of contents
 
   dateformatpretty = "2006-01-02"

@@ -1,47 +1,33 @@
-baseurl = "https://www.crookm.com/"
-#theme = "casper-two"
+baseurl = "https://crookm.com/"
+title = "Matt Crook"
+
+theme = "temple"
 languageCode = "en-NZ"
-disqusShortname = ""
-paginate = 6
-#SectionPagesMenu = "main"
+#copyright = "(c) matt crook"
+
+pygmentsStyle = "friendly"
+pygmentsCodeFences = true
 
 [params]
-  title = "Matt's Blog"
-  subtitle = "Tech and software engineering"
+  topmenu = "categories" # enables topmenu
+  #toc = true # table of contents
 
-  cover = "https://crookm.ams3.cdn.digitaloceanspaces.com/media/meta/header-1.jpg"
-  description = "Tech and software engineering"
-  metaDescription = ""
-  googleAnalytics = "UA-113693681-1"
-  customCSS = []
-  RSSLink = "/index.xml"
+  dateformatpretty = "2006-01-02"
 
-  twitterName = "mattlc_3"
-  fbName = ""
-  githubName = "crookm"
-  linkedinName = "crookm"
-  #mastodonName = "crookm"
+# Builds a list page for each category given
+[taxonomies]
+  tag = "tags"
+  category = "categories"
 
-  #logo = "/assets/image/meta/blog-logo.png"
-  #orgName = "EM"
-  #orgWebsite = "https://www.telematika.org"
-  #orgDescription = "Here is a description placeholder for your org"
-
-  copyright = "&copy; Copyright 2019"
-
-  author = "Matt Crook"
-  authorAvatar = "https://crookm.ams3.cdn.digitaloceanspaces.com/media/meta/profile-mc.jpg"
-  authorLocation = "Auckland, NZ"
-  #authorWebsite = "https://www.crookm.com/about/"
-  authorDescription = "Futurist, technologist, and developer"
-
-  pageNotFoundTitle = "404 - Page not found"
-
-  #casper or caspertwo
-  singleViewStyle = "casper"
+[author]
+  name = "Matt Crook"
+  github = "crookm"
+  twitter = "mattlc_3"
+  email = "mattlcrook@icloud.com"
+  gaid = "UA-113693681-1"
 
 [permalinks]
-  post = "/journal/:year/:slug/"
+  posts = "/journal/:year/:slug/"
 
 [[menu.main]]
   name = "Home"

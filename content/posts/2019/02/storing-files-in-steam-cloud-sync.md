@@ -2,18 +2,18 @@
 title: Storing Files in Steam Cloud Sync
 published: 2019-02-09T10:00:00+12:00
 
-image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2019/storing-files-in-steam-cloud-sync--3c668ad9-a718-4f1d-b310-dbb1813abc50.png
-
 tags: [ "fun",]
 ---
 
 Just got to playing around with some Steam games, and the Cloud Sync feature got me thinking, could I store any file in here? It's not going to be the next Google Drive, but I thought it would be fun to explore.
 
+![](https://assets.crookm.com/media/2019/storing-files-in-steam-cloud-sync--3c668ad9-a718-4f1d-b310-dbb1813abc50.png)
+
 First thing I did was naïvely dump a random file in the saves folder of a game I already had installed - Stellaris. That didn't work of course, but I wasn't going to give up this early.
 
 I remembered that in Stellaris, you can select whether you want to store a save game to the cloud. Since the game stores all save files in the same location, that hinted to me that there was some kind of Steam API in use here. Sure enough, [there is](https://partner.steamgames.com/doc/features/cloud).
 
-![screenshot of stellaris save-game menu](https://crookm.ams3.cdn.digitaloceanspaces.com/media/2019/storing-files-in-steam-cloud-sync--98b90a6b-c0c3-4ffe-851c-e7f4b6534dba.jpg)
+![screenshot of stellaris save-game menu](https://assets.crookm.com/media/2019/storing-files-in-steam-cloud-sync--98b90a6b-c0c3-4ffe-851c-e7f4b6534dba.jpg)
 
 After some light reading, I discovered that there are two ways that Cloud Sync can be implemented in a game; through the Steam API, and something called Auto Cloud.
 
@@ -27,14 +27,14 @@ Pop a file in the save game directory, tack-on the save extension of `.ess`, sta
 
 A super convoluted way of getting a tiny (Skyrim gives you 200MB) amount of free cloud storage!
 
-![screenshot of steam cloud properties](https://crookm.ams3.cdn.digitaloceanspaces.com/media/2019/storing-files-in-steam-cloud-sync--87714ffe-9ef7-480b-827d-01b9b0a067b9.png)
+![screenshot of steam cloud properties](https://assets.crookm.com/media/2019/storing-files-in-steam-cloud-sync--87714ffe-9ef7-480b-827d-01b9b0a067b9.png)
 
-Note that to delete files, you have to delete them in the game. This means that you sometimes get the weirdness of [having a save number](https://crookm.ams3.cdn.digitaloceanspaces.com/media/2019/storing-files-in-steam-cloud-sync--9375307a-6f6f-4fc8-b29e-4ae5a83e612a.jpg) from the unrelated file.
+Note that to delete files, you have to delete them in the game. This means that you sometimes get the weirdness of [having a save number](https://assets.crookm.com/media/2019/storing-files-in-steam-cloud-sync--9375307a-6f6f-4fc8-b29e-4ae5a83e612a.jpg) from the unrelated file.
 
 {{< video
 title="Steam Cloud Sync Misc Files"
-poster="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/2019/storing-files-in-steam-cloud-sync/thumb.jpg" 
-uri_dash="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/2019/storing-files-in-steam-cloud-sync/dash/manifest.mpd"
-uri_hls="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/2019/storing-files-in-steam-cloud-sync/hls/manifest.m3u8"
-uri_webm="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/2019/storing-files-in-steam-cloud-sync/nostream--854x480-30-1250k.webm"
-uri_mp4="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/2019/storing-files-in-steam-cloud-sync/nostream--854x480-30-1250k.mp4" >}}
+poster="https://assets.crookm.com/media/video/2019/storing-files-in-steam-cloud-sync/thumb.jpg" 
+uri_dash="https://assets.crookm.com/media/video/2019/storing-files-in-steam-cloud-sync/dash/manifest.mpd"
+uri_hls="https://assets.crookm.com/media/video/2019/storing-files-in-steam-cloud-sync/hls/manifest.m3u8"
+uri_webm="https://assets.crookm.com/media/video/2019/storing-files-in-steam-cloud-sync/nostream--854x480-30-1250k.webm"
+uri_mp4="https://assets.crookm.com/media/video/2019/storing-files-in-steam-cloud-sync/nostream--854x480-30-1250k.mp4" >}}

@@ -2,9 +2,7 @@
 title: "Keyboard Input in VR"
 published: 2019-02-05T20:37:11+13:00
 
-#image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2019/keyboard-input-in-vr--3a712a06-acda-4604-989d-22c3e448966b.jpg
-
-tags: [ "xr", "dev"]
+tags: [ "xr", "dev",]
 ---
 
 It's unusually difficult to get text input in a virtual reality application using Unity, but there are a few tools that make it easier.

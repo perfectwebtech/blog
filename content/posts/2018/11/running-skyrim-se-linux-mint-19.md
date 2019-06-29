@@ -2,16 +2,16 @@
 title: Running Skyrim SE on Linux Mint 19
 published: 2018-11-03T14:08:00+12:00
 
-#image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/running-skyrim-se-linux-mint-19--8a23a7fd-e4a6-4574-87c6-7549fba20711.png
-
 tags: [ "linux",]
 ---
 
 Skyrim: Special Edition works right out of the box with Steam Play, but takes some configuration to work excellently. Here's a short guide of how I got everything working on Linux Mint 19, with an NVidia GPU.
 
+![](https://assets.crookm.com/media/2018/running-skyrim-se-linux-mint-19--8a23a7fd-e4a6-4574-87c6-7549fba20711.png)
+
 The first thing you need to do is enable Steam Play on all games, so just open Steam for Linux, and head over to settings. Under Steam Play, check the respective checkbox.
 
-![steam settings for steam play](https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/running-skyrim-se-linux-mint-19--85ce8de9-4e9d-4aa1-8eb3-2a655d3fbaaa.png)
+![steam settings for steam play](https://assets.crookm.com/media/2018/running-skyrim-se-linux-mint-19--85ce8de9-4e9d-4aa1-8eb3-2a655d3fbaaa.png)
 
 If you launch Skyrim SE now, you'll find that it works. There are a few issues, however - involving sound and some graphics/shading issues.
 
@@ -30,7 +30,7 @@ The command above will open the wine config for the game. Navigate to and add th
 * xaudio2_6
 * xaudio2_7
 
-![wine configuration dialog displaying libraries tab](https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/running-skyrim-se-linux-mint-19--6d1a7b9c-df90-4f1a-a86f-41ffb634d3f3.png)
+![wine configuration dialog displaying libraries tab](https://assets.crookm.com/media/2018/running-skyrim-se-linux-mint-19--6d1a7b9c-df90-4f1a-a86f-41ffb634d3f3.png)
 
 ## Jittery or unstable graphics
 In the same wine configuration dialog, add these libraries:
@@ -75,7 +75,7 @@ sudo apt install nvidia-xconfig nvidia-prime libnvidia-gl-396:i386
 
 And open the NVidia x server settings from the start menu, browse to the x server display configuration, and save to the x configuration file to initialise it.
 
-![nvidia x server settings](https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/running-skyrim-se-linux-mint-19--05426d89-8f73-4a9c-b4f6-96ed5d2a57f5.png)
+![nvidia x server settings](https://assets.crookm.com/media/2018/running-skyrim-se-linux-mint-19--05426d89-8f73-4a9c-b4f6-96ed5d2a57f5.png)
 
 
 ## Conclusion
@@ -85,8 +85,8 @@ But in the mean time, enjoy running Skyrim: Special Edition on Linux Mint!
 
 {{< video
 title="Running Skyrim SE on Linux Mint 19"
-poster="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/running-skyrim-se-linux-mint-19/thumb.jpg" 
-uri_dash="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/running-skyrim-se-linux-mint-19/dash/manifest.mpd"
-uri_hls="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/running-skyrim-se-linux-mint-19/hls/manifest.m3u8"
-uri_webm="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/running-skyrim-se-linux-mint-19/nostream--854x480-30-1250k.webm"
-uri_mp4="https://crookm.ams3.cdn.digitaloceanspaces.com/media/video/running-skyrim-se-linux-mint-19/nostream--854x480-30-1250k.mp4" >}}
+poster="https://assets.crookm.com/media/video/running-skyrim-se-linux-mint-19/thumb.jpg" 
+uri_dash="https://assets.crookm.com/media/video/running-skyrim-se-linux-mint-19/dash/manifest.mpd"
+uri_hls="https://assets.crookm.com/media/video/running-skyrim-se-linux-mint-19/hls/manifest.m3u8"
+uri_webm="https://assets.crookm.com/media/video/running-skyrim-se-linux-mint-19/nostream--854x480-30-1250k.webm"
+uri_mp4="https://assets.crookm.com/media/video/running-skyrim-se-linux-mint-19/nostream--854x480-30-1250k.mp4" >}}

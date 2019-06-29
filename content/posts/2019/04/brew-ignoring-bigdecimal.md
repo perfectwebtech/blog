@@ -29,4 +29,4 @@ After that, I didn't have any more issues with Brew.
 
 If your system is anything like mine, you'll probably see a tonne of similar issues with other gems, but I didn't really want to open that Pandora's Box.
 
-![terminal after resetting the bigdecimal to a pristine state](https://crookm.ams3.cdn.digitaloceanspaces.com/media/2019/brew-ignoring-bigdecimal--c87e2876-61fe-4808-9e3c-98330bb2d3ef.png)
+![terminal after resetting the bigdecimal to a pristine state](https://assets.crookm.com/media/2019/brew-ignoring-bigdecimal--c87e2876-61fe-4808-9e3c-98330bb2d3ef.png)

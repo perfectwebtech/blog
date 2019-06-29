@@ -3,8 +3,6 @@ title: "Sharing WiFi Connection over Ethernet on Ubuntu 18.04"
 slug: sharing-wifi-connection-over-ethernet
 published: 2018-05-10T23:46:00+12:00
 
-#image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/sharing-wifi-connection-over-ethernet-ubuntu-18-04--2ccfd293-2211-4163-b960-a1397a90c7ab.png
-
 tags: [ "linux",]
 ---
 
@@ -18,7 +16,7 @@ nm-connection-editor
 
 When it opens, select the wired connection item, clicking the edit button (the cog). In that menu, switch to the IPv4 tab, and select the method: 'shared to other computers'.
 
-![Screenshot of the connection editor with settings opened](https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/sharing-wifi-connection-over-ethernet-ubuntu-18-04--2ccfd293-2211-4163-b960-a1397a90c7ab.png)
+![Screenshot of the connection editor with settings opened](https://assets.crookm.com/media/2018/sharing-wifi-connection-over-ethernet-ubuntu-18-04--2ccfd293-2211-4163-b960-a1397a90c7ab.png)
 
 After that, save everything and connect your cable if you haven't already, and DHCP should kick-in and set everything up for you!
 

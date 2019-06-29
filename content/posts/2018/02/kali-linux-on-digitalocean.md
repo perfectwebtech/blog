@@ -2,16 +2,18 @@
 title: "Kali Linux on DigitalOcean"
 published: 2018-02-21T21:27:00+13:00
 
-#image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/kali-linux-on-digitalocean--3eb66413-0f33-4801-be73-fc5d4d9c9f0e.png
+toc: true
 
 tags: [ "linux",]
 ---
 
 Kali Linux is a distribution of Linux that is used for penetration testing. While normally distributed in a typical ISO file for install on hardware, it has also been wrapped into a [Docker image](https://www.kali.org/news/official-kali-linux-docker-images/) to run it on basically any OS with Docker installed.
 
+![](https://assets.crookm.com/media/2018/kali-linux-on-digitalocean--3eb66413-0f33-4801-be73-fc5d4d9c9f0e.png)
+
 On [DigitalOcean](https://m.do.co/c/f8ffd8a5f356), you can't install an ISO file. This is where the Docker image comes into play. On DigitalOcean you can set up a container distribution to use Kali. I like to use CoreOS.
 
-![](https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/kali-linux-on-digitalocean--19e131a2-72a3-490b-8a15-c95933d53029.png)
+![](https://assets.crookm.com/media/2018/kali-linux-on-digitalocean--19e131a2-72a3-490b-8a15-c95933d53029.png)
 
 Once you've set up your container distribution, go ahead and login with your SSH key, using the 'core' user. That was one thing that was not immediately obvious, because I would typically SSH into virtual machines with 'root'.
 

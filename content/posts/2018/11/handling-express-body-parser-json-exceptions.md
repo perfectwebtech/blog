@@ -9,7 +9,7 @@ Express.js, an HTTP server for Node.js, has middleware that you have to install 
 
 One issue that I ran into specifically was the JSON parser being set to strict by default - meaning that only objects and arrays are accepted. This is okay for what I want to do, but if you try to send something like a plain string, an exception is thrown. By default, this will expose a stack trace to the public site, which you probably don't want to do.
 
-![a json exception being thrown in the console](https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/handling-express-body-parser-json-exceptions--9d1737cf-7b9e-4563-be1f-c6d76a31050e.png)
+![a json exception being thrown in the console](https://assets.crookm.com/media/2018/handling-express-body-parser-json-exceptions--9d1737cf-7b9e-4563-be1f-c6d76a31050e.png)
 
 You can't catch the exception in your handler for the route, or the route definition for that matter. This dashed my hopes of using the middleware route-specifically.
 
@@ -20,7 +20,7 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.set("env", "production"); // this is how you prevent public stack traces (news to me 😉)
+app.set("env", "production"); // this is how you prevent public stack traces
 app.use(require("body-parser").json());
 
 app.use(function(err, req, res, next) {

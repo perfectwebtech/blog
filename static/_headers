@@ -1,8 +1,12 @@
 /*
-  content-security-policy: default-src 'self' data: 'unsafe-inline' https://crookm.com https://assets.crookm.com https://fonts.googleapis.com https://ajax.cloudflare.com https://www.google-analytics.com; frame-src 'none'; worker-src 'none'; report-uri https://0cd9540a7a0370860f03069e07702215.report-uri.com/r/d/csp/enforce
+  cache-control: public, s-maxage=21600, max-age=7200, must-revalidate
+  content-security-policy: default-src 'self' data: 'unsafe-inline' https://crookm.com https://assets.crookm.com https://fonts.googleapis.com https://ajax.cloudflare.com https://www.google-analytics.com https://platform.twitter.com; frame-src 'none'; worker-src 'none'; report-uri https://0cd9540a7a0370860f03069e07702215.report-uri.com/r/d/csp/enforce
   report-to: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://0cd9540a7a0370860f03069e07702215.report-uri.com/a/d/g"}],"include_subdomains":true}
   nel: {"report_to":"default","max_age":31536000,"include_subdomains":true}
   x-frame-options: DENY
   x-xss-protection: 1; mode=block
   referrer-policy: strict-origin-when-cross-origin
   feature-policy: accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
+
+/journal/*
+  cache-control: public, s-maxage=2629800, max-age=1209600, must-revalidate

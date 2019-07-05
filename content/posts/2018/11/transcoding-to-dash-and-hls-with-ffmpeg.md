@@ -2,12 +2,7 @@
 title: Transcoding to DASH and HLS with FFmpeg
 published: 2018-11-04T17:26:00+12:00
 
-image: https://crookm.ams3.cdn.digitaloceanspaces.com/media/2018/transcoding-to-dash-and-hls-with-ffmpeg--9b3ab1d4-5fac-4534-aff0-b09e437e58d3.jpg
-
 tags: [ "linux",]
-
-# pulled because i think it's dumb now (2019-06-29)
-draft: true
 ---
 
 For my [previous post](https://www.crookm.com/journal/2018/running-skyrim-se-on-linux-mint-19/), I wanted to include a short video as a proof of the concept I was discussing. What I thought was going to be a simple foray into the world of DASH and HLS streaming video, quickly turned into a nightmare.

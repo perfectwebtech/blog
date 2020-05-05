@@ -1,5 +1,5 @@
 ---
-title: "Routing by Subdomain in ASP.NET Core MVC"
+title: "Routing by Subdomain in ASP.NET Core 2.2"
 slug: "routing-by-subdomain-in-asp-net-core-mvc"
 published: 2018-09-30T23:14:00+12:00
 
@@ -166,4 +166,4 @@ namespace DNSRouting.Controllers
 
 That's about it! You could do some kind of lookup on the host to get some kind of info from a data connection, and work with it like you would as if it was it's own web app! 🌐
 
-I put everything into a repo as a full web app - you can [find that here](https://github.com/crookm/dnsrouting).
+I put everything into a repo as a full web app - you can [find that here](https://github.com/crookm/dnsrouting/tree/c0d4e5700cc7cdf750205d37dc7c319dd241c0d9).
